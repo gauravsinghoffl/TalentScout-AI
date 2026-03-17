@@ -86,7 +86,7 @@ TalentScout-AI/
 ## ⚙️ Installation
 
 ~~~bash
-git clone https://github.com/YOUR-USERNAME/TalentScout-RAG-AI.git
+git clone https://github.com/gauravsinghoffl/TalentScout-RAG-AI.git
 cd TalentScout-RAG-AI
 
 python -m venv .venv
@@ -134,7 +134,7 @@ streamlit run app.py
 
 ## 👨‍💻 Author
 
-Your Name
+Gaurav Singh
 
 ---
 
