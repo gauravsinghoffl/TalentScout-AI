@@ -42,7 +42,6 @@ Resume → Extraction → Embeddings → FAISS → Retrieval → LLM → Evaluat
 
 ## 📂 Project Structure
 
-~~~bash
 TalentScout-AI/
 │── app.py
 │── requirements.txt
@@ -50,13 +49,35 @@ TalentScout-AI/
 │── .gitignore
 │
 ├── assessment/
+│   ├── answer_evaluator.py
+│   └── question_generation.py
+│
 ├── components/
+│   ├── progress.py
+│   └── sidebar.py
+│
 ├── config/
+│   ├── constants.py
+│   └── settings.py
+│
 ├── data/
+│   └── technical_questions.json
+│
 ├── models/
+│   └── llm_manager.py
+│
 ├── reporting/
+│   └── report_generator.py
+│
 ├── utils/
-~~~
+│   ├── assessment_query_builder.py
+│   ├── assessment_scorer.py
+│   ├── final_scorer.py
+│   ├── pdf_exporter.py
+│   ├── rag_engine.py
+│   ├── resume_analyzer.py
+│   ├── resume_processing.py
+│   └── validators.py
 
 ---
 
