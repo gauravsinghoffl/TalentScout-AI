@@ -169,10 +169,10 @@ streamlit run app.py
 
 ## 🚀 Future Improvements
 
-- FAISS persistence  
-- Better evaluation logic  
-- Dashboard  
-- Deployment  
+- Implement persistent FAISS index to optimize retrieval performance  
+- Enhance evaluation logic using more robust LLM-based scoring  
+- Develop a recruiter dashboard for tracking candidate performance  
+- Deploy the application on cloud platforms for scalability  
 
 ---
 
