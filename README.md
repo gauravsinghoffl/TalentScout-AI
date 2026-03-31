@@ -137,11 +137,11 @@ streamlit run app.py
 ---
 
 ## 📸 Demo Walkthrough
+<br><br>
 
 ### 📝 1. Candidate Information
 ![Home](assets/Home%20Page.png)
-
-
+<br><br>
 
 ### 📄 2. Resume Upload
 ![Upload](assets/Resume%20Upload.png)
@@ -153,18 +153,23 @@ streamlit run app.py
 
 ### ❓ 4. Question Generation
 ![Questions](assets/Question%20Generation.png)
+<br><br>
 
 ### 🧠 5. MCQ Type Question
 ![MCQ](assets/MCQ%20Question.png)
+<br><br>
 
 ### 📊 6. Final Report (Hire)
 ![Hire](assets/Report%20%28Hire%29.png)
+<br><br>
 
 ### ⚖️ 7. Final Report (Borderline)
 ![Borderline](assets/Report%20%28Borderline%29.png)
+<br><br>
 
 ### ❌ 8. Final Report (Reject)
 ![Reject](assets/Report%20%28Reject%29.png)
+<br><br>
 
 ### 📑 9. PDF Report Preview
 ![PDF](assets/PDF%20Report.png)
