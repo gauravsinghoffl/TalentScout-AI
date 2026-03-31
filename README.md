@@ -43,49 +43,29 @@ TalentScout AI is an intelligent hiring assistant that automates candidate scree
 ```mermaid
 flowchart TD
 
-    %% UI Layer
-    A[Candidate Input Form]
-    B[Resume Upload]
-    C[Assessment Interface]
-    D[Results Display]
+    %% Input Layer
+    A[Resume Upload] --> B[Resume Parsing]
+    B --> C[Skill Extraction]
 
-    %% Processing
-    E[Resume Parsing]
-    F[Skill Extraction]
-    G[Text Preprocessing]
+    %% RAG Pipeline
+    C --> D[Embeddings Generation]
+    D --> E[FAISS Vector Search]
+    E --> F[RAG Context Retrieval]
 
-    %% AI / RAG
-    H[Embeddings Generation<br/>Sentence Transformers]
-    I[FAISS Vector Search]
-    J[RAG Context Retrieval]
-    K[LLM Question Generation]
-    L[LLM Answer Evaluation]
+    %% LLM Layer
+    F --> G[Question Generation (LLM)]
+    G --> H[Candidate Assessment]
+    H --> I[Answer Evaluation (LLM)]
 
-    %% Output
-    M[Scoring Engine]
-    N[Report Generation]
-    O[PDF Export]
-
-    %% Flow
-    A --> B
-    B --> E
-    E --> F
-    F --> G
-    G --> H
-    H --> I
-    I --> J
-    J --> K
-    K --> C
-    C --> L
-    L --> M
-    M --> N
-    N --> O
-    O --> D
+    %% Output Layer
+    I --> J[Scoring Engine]
+    J --> K[Report Generation]
+    K --> L[PDF Export]
 
     %% External
-    P[Groq API / LLM]
-    P --> K
-    P --> L
+    M[Groq API]
+    M --> G
+    M --> I
 ```
 ---
 
