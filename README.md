@@ -150,7 +150,7 @@ streamlit run app.py
 ### ❓ 4. Question Generation
 ![Questions](assets/Question%20Generation.png)
 
-### 🧠 5. Technical Assessment (MCQ)
+### 🧠 5. MCQ Type Question
 ![MCQ](assets/MCQ%20Question.png)
 
 ### 📊 6. Final Report (Hire)
