@@ -145,9 +145,11 @@ streamlit run app.py
 
 ### 📄 2. Resume Upload
 ![Upload](assets/Resume%20Upload.png)
+<br><br>
 
 ### 🔍 3. Resume Analysis
 ![Analysis](assets/Resume%20Analysis.png)
+<br><br>
 
 ### ❓ 4. Question Generation
 ![Questions](assets/Question%20Generation.png)
