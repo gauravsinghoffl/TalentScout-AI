@@ -170,7 +170,10 @@ streamlit run app.py
 ## 🚀 Future Improvements
 
 - Implement persistent FAISS index to optimize retrieval performance  
-- Enhance evaluation logic using more robust LLM-based scoring  
+- Enhance evaluation logic using more robust LLM-based scoring
+- Authentication & User Management system
+- Multi-format Resume Support (DOCX, OCR)
+- API Integration for ATS systems
 - Develop a recruiter dashboard for tracking candidate performance  
 - Deploy the application on cloud platforms for scalability  
 
