@@ -128,11 +128,14 @@ streamlit run app.py
 
 ## 🧠 Tech Stack
 
-- Python  
-- Streamlit  
-- FAISS  
-- Sentence Transformers  
-- Groq API  
+- **Language:** Python  
+- **Frontend/UI:** Streamlit  
+- **AI/ML:** NLP, Sentence Transformers, LLMs  
+- **RAG Pipeline:** Retrieval-Augmented Generation  
+- **Vector Search:** FAISS  
+- **LLM Inference:** Groq API  
+- **Data Processing:** Resume parsing & text extraction  
+- **Output Generation:** PDF report generation  
 
 ---
 
