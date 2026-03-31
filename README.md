@@ -189,7 +189,6 @@ streamlit run app.py
 ---
 
 ## 📸 Demo Walkthrough
-<br>
 
 ### 📝 1. Candidate Information
 ![Home](assets/Home%20Page.png)
