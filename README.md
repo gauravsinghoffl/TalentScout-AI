@@ -55,7 +55,7 @@ flowchart TD
     G[Text Preprocessing]
 
     %% AI / RAG
-    H[Embeddings Generation<br/>(Sentence Transformers)]
+    H["Embeddings Generation (Sentence Transformers)"]
     I[FAISS Vector Search]
     J[RAG Context Retrieval]
     K[LLM Question Generation]
