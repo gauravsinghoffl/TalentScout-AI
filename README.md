@@ -28,7 +28,7 @@ TalentScout AI is an intelligent hiring assistant that automates candidate scree
 - ❓ AI-generated questions  
 - 📝 LLM answer evaluation  
 - 📊 Final scoring  
-- 📑 PDF reports  
+- 📑 PDF report generation
 
 ---
 
@@ -93,11 +93,11 @@ TalentScout-AI/
 
 ---
 
-## ⚙️ Installation
+## 🛠️ Installation
 
 ~~~bash
 git clone https://github.com/gauravsinghoffl/TalentScout-AI.git
-cd TalentScout-RAG-AI
+cd TalentScout-AI
 
 python -m venv .venv
 .venv\Scripts\activate
