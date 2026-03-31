@@ -141,6 +141,8 @@ streamlit run app.py
 ### 📝 1. Candidate Information
 ![Home](assets/Home%20Page.png)
 
+
+
 ### 📄 2. Resume Upload
 ![Upload](assets/Resume%20Upload.png)
 
