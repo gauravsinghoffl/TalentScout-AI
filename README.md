@@ -136,6 +136,37 @@ streamlit run app.py
 
 ---
 
+## 📸 Demo Walkthrough
+
+### 📝 1. Candidate Information
+![Candidate Info](assets/Home Page.png)
+
+### 📄 2. Resume Upload
+![Resume Upload](assets/Resume Upload.png)
+
+### 🔍 3. Resume Analysis & Skill Extraction
+![Resume Analysis](assets/03_resume_analysis.png)
+
+### ❓ 4. AI-Generated Technical Questions
+![Questions](assets/04_question_screen.png)
+
+### 🧠 5. Interactive Assessment (MCQ + LLM Evaluation)
+![MCQ](assets/05_mcq_question.png)
+
+### 📊 6. Final Evaluation Report (Hire Case)
+![Report Hire](assets/06_report_hire.png)
+
+### ⚖️ 7. Borderline Candidate Case
+![Report Borderline](assets/07_report_borderline.png)
+
+### ❌ 8. Reject Candidate Case
+![Report Reject](assets/08_report_reject.png)
+
+### 📑 9. Generated PDF Report
+![PDF](assets/09_pdf_report.png)
+
+---
+
 ## 🚀 Future Improvements
 
 - FAISS persistence  
