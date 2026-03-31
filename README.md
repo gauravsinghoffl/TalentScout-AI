@@ -83,10 +83,20 @@ TalentScout-AI/
 
 ---
 
+## ⚙️ How It Works
+
+1. Upload resume
+2. System extracts skills
+3. FAISS retrieves relevant questions
+4. LLM evaluates responses
+5. Final score + report generated
+
+---
+
 ## ⚙️ Installation
 
 ~~~bash
-git clone https://github.com/gauravsinghoffl/TalentScout-RAG-AI.git
+git clone https://github.com/gauravsinghoffl/TalentScout-AI.git
 cd TalentScout-RAG-AI
 
 python -m venv .venv
