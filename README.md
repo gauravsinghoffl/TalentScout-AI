@@ -53,9 +53,9 @@ flowchart TD
     E --> F[RAG Context Retrieval]
 
     %% LLM Layer
-    F --> G[Question Generation (LLM)]
+    F --> G[Question Generation - LLM]
     G --> H[Candidate Assessment]
-    H --> I[Answer Evaluation (LLM)]
+    H --> I[Answer Evaluation - LLM]
 
     %% Output Layer
     I --> J[Scoring Engine]
