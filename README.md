@@ -93,7 +93,7 @@ flowchart LR
     P[Groq API / LLM]
     P --> K
     P --> L
-
+```
 ---
 
 ## 📂 Project Structure
