@@ -25,7 +25,6 @@ TalentScout AI is an intelligent hiring assistant that automates candidate scree
 
 ---
 
-<br>
 ## ✨ Features
 <br>
 
@@ -39,7 +38,6 @@ TalentScout AI is an intelligent hiring assistant that automates candidate scree
 
 ---
 
-<br>
 ## 🏗️ System Architecture
 <br>
 
