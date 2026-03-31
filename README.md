@@ -10,6 +10,9 @@
   <img src="https://img.shields.io/badge/FAISS-Vector_Search-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/RAG-Enabled-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/LLM-Groq-purple?style=for-the-badge" />
+  <a href="https://talentscout-ai-app.streamlit.app/">
+  <img src="https://img.shields.io/badge/🚀-Live_App-success?style=for-the-badge" />
+</a>
 </p>
 
 ---
