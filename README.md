@@ -19,14 +19,13 @@
 
 
 ## 🚀 Overview
-<br>
+
 TalentScout AI is an intelligent hiring assistant that automates candidate screening using resume analysis, vector-based retrieval, and AI-driven technical evaluation.
 
 
 ---
 
 ## ✨ Features
-<br>
 
 - 📄 Resume parsing  
 - 🧠 Tech stack detection  
@@ -55,7 +54,7 @@ flowchart TD
     G[Text Preprocessing]
 
     %% AI / RAG
-    H["Embeddings Generation (Sentence Transformers)"]
+    H[Embeddings Generation (Sentence Transformers)]
     I[FAISS Vector Search]
     J[RAG Context Retrieval]
     K[LLM Question Generation]
