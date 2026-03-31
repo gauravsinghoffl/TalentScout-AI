@@ -20,7 +20,7 @@
 
 ## 🚀 Overview
 
-TalentScout AI is an intelligent hiring assistant that automates candidate screening using resume analysis, vector-based retrieval, and AI-driven technical evaluation.
+TalentScout AI is an AI-powered hiring assistant that automates end-to-end candidate evaluation using a Retrieval-Augmented Generation (RAG) pipeline. It processes resumes, extracts skills, generates embeddings using sentence transformers, retrieves relevant context through FAISS vector search, and leverages LLMs to generate technical questions and evaluate responses. The system then produces structured candidate scores and detailed PDF reports, enabling efficient and scalable recruitment workflows.
 
 
 ---
